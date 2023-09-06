@@ -1,0 +1,60 @@
+/* div p{
+    color: cornflowerblue;
+}
+/* Descandant Selector */
+/* p{
+    color: red;
+}
+.para{
+    color: rgb(249, 150, 166);
+}
+/* Descendant Selector */
+/* div.para 
+{
+    color: blueviolet;
+}
+ul>li
+{
+    color: chocolate;
+} */ 
+/* li+li
+{
+    color: seagreen;
+} */ 
+
+/* ul>div>li{
+    color: darkblue;
+} */
+li#fav-movie+li
+{
+    color: cornflowerblue;
+}
+li#fav-movie~li{
+    color: darkred;
+}
+nav a:link{
+    color : darkred
+}
+nav a:hover{
+    color : green
+}
+nav a:active{
+    color : darkblue
+}
+
+ol li:first-child{
+    color: crimson;
+}
+ol li:last-child{
+    color: cadetblue;
+}
+/* 2x+3 */
+/* Immediate Sibling */
+/* Direct Child */
+/* Priority */
+/* id>class>element */
+/* Attribute selector */
+/* ID Selector */
+/* Element Selector */
+/* CLass Selector */
+/* Universal Selector */
